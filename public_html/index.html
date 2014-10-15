@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>さまざまなボタン</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="js/libs/jquery-mobile/jquery.mobile.min.css">
+    </head>
+    <body>
+
+        <div data-role="page" id="page1">
+
+            <div data-role="header">
+                <h1>さまざなボタン</h1>
+            </div><!-- /header -->
+
+            <div role="main" class="ui-content">
+
+                <a href="#" class="ui-btn">アンカー(a)</a>
+                <button class="ui-btn">ボタン(button)</button>
+
+                <a href="#" class="ui-btn ui-corner-all">角丸アンカー</a>
+                <button class="ui-btn ui-corner-all">角丸ボタン</button>
+
+
+                <a href="#" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all">No text</a>
+                アイコンのみのアンカー
+                <div id="custom-border-radius">
+                    <a href="#" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-corner-all">No text</a>
+                </div>      
+                アイコンのみのボタン
+
+                <a href="#" class="ui-btn ui-icon-delete ui-btn-icon-left">アイコン付きアンカー</a>
+                <button class="ui-btn ui-icon-delete ui-btn-icon-left">アイコン付きボタン</button>
+
+
+
+            </div><!-- /content -->
+
+            <div data-role="footer">
+                <h4>ページフッタ(footer)</h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->        
+
+
+        <script src="js/libs/jquery/jquery.min.js"></script>
+        <script src="js/libs/jquery-mobile/jquery.mobile.min.js"></script>
+    </body>
+</html>
